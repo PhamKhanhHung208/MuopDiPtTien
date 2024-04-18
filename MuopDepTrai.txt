@@ -33,8 +33,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/h
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/UI-Lib/main/robloxscripts/flux-inter"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "MuopTaoCode hihi",
-    SubTitle = "- join my discord server : http://dit cord Muop dep trai",
+    Title = "Mbm Hub V2.5",
+    SubTitle = "- join my discord server : https://discord.gg/ZRapJfwPmK",
     TabWidth = 160,
     Size = UDim2.fromOffset(515, 350),
     Acrylic = false,
@@ -96,9 +96,10 @@ Tabs.Info:AddSection("In Roblox Console (F9 or /console in chat)")
     --15582682098--mbm  x  Hub
     print("made by minh & dakii")
     print("mbm x hub")
-    print("join my discord server : https://dsc.gg/MuopdepTrai")
-    print("bio : https://bio.site/Kh4nhHuwq")
+    print("join my discord server : https://dsc.gg/m1m")
+    print("bio : https://bio.site/m1m")
     print("ty for using - have fun")
+    print("sk (on discord : @player.81 & @dakii_90790)")
     print("wait ,.,")
     print("LCTSV - .,.")  
 --[[notify
@@ -123,12 +124,12 @@ task.delay(1 * 10,function()
     
     wait(.3)
     require(game.ReplicatedStorage.Notification).new("<Color=Blue> hi "..game.Players.LocalPlayer.DisplayName.." <Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow> join my discord server : https://dsc.gg/Kh4nhHuwq <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow> join my discord server : https://dsc.gg/m1m <Color=/>"):Display()
     require(game.ReplicatedStorage.Notification).new("<Color=Purple> ty for using mbm Hub - have fun:P <Color=/>"):Display()
 
 end)
 ]]
---AFK CON CAC
+--Anti AFK
 game:GetService("Players").LocalPlayer.Idled:connect(function()
 	game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 	wait(1)
